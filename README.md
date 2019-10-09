@@ -11,7 +11,7 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 
 ### Docker Tags
 
-`dockerfile/java` provides multiple tagged images:
+`dockerfile/java` provides multiple tagged Images:
 
 * `latest` (default): OpenJDK Java 7 JRE (alias to `openjdk-7-jre`)
 * `openjdk-6-jdk`: OpenJDK Java 6 JDK
@@ -27,7 +27,7 @@ For example, you can run a `Oracle Java 8` container with the following command:
     docker run -it --rm dockerfile/java:oracle-java8 java -version
 
 
-### Installation
+### Installation 
 
 1. Install [Docker](https://www.docker.com/).
 
